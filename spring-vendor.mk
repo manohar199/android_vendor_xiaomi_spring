@@ -658,8 +658,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/vendor/etc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/libese-tms.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-tms.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/xiaomi/spring/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
-    vendor/xiaomi/spring/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/libnfc-tms.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-tms.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/libnfc-tms_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-tms_RF.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/libnfc-tms_RF_EC2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-tms_RF_EC2.conf \
@@ -1035,10 +1033,8 @@ PRODUCT_PACKAGES += \
     libVkLayer_ADRENO_qprofiler \
     libq3dtools_adreno \
     libq3dtools_esx \
-    ese_spi_nxp \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss-aidl-impl-qti \
-    android.hardware.nfc@1.0-impl \
     audio.primary.blair \
     camera.qcom \
     com.dsi.ant@1.0-impl \
@@ -1482,9 +1478,7 @@ PRODUCT_PACKAGES += \
     libxiaomi_qcril \
     libxml \
     libxtadapter \
-    nfc_nci.nqx.default.hw \
     nfc_nci.thn31nfc.tms \
-    nfc_nci_nxp \
     qcrilInterfaces \
     qcrilIntermodulemsgs \
     qcrilMarshal \
@@ -1539,7 +1533,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.nxp.hardware.nfc@2.0 \
     vendor.qti.ImsRtpService-V1-ndk_vendor \
     vendor.qti.ImsRtpService-aidl-Impl \
     vendor.qti.data.factoryservice-V1-ndk \
@@ -1855,7 +1848,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.keymaster@4.0-service-qti \
     android.hardware.nfc-service-tms \
-    android.hardware.nqnfc-service.nxp \
     android.hardware.secure_element-service-tms \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
