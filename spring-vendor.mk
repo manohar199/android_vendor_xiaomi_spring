@@ -698,11 +698,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_blair.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_blair.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_blair_lite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_blair_lite.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_holi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_holi.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_holi_pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_holi_pro.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_performance_blair.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_blair.xml \
@@ -1178,7 +1173,6 @@ PRODUCT_PACKAGES += \
     libbtnv \
     libc++_shared \
     libcacertclient \
-    libcamera2ndk_vendor \
     libcamera_nn_stub \
     libcamera_scene \
     libcameraopt \
