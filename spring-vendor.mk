@@ -266,11 +266,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/xiaomi/spring/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/SEC_THN31_FW_VTP.txt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/SEC_THN31_FW_VTP.txt.bin \
-    vendor/xiaomi/spring/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/acdbdata/blair_mtp/MTP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/blair_mtp/MTP_acdb_cal.acdb \
-    vendor/xiaomi/spring/proprietary/vendor/etc/acdbdata/blair_mtp/MTP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/blair_mtp/MTP_workspaceFileXml.qwsp \
-    vendor/xiaomi/spring/proprietary/vendor/etc/acdbdata/blair_mtp_usbc/MTP_usbc_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/blair_mtp_usbc/MTP_usbc_acdb_cal.acdb \
-    vendor/xiaomi/spring/proprietary/vendor/etc/acdbdata/blair_mtp_usbc/MTP_usbc_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/blair_mtp_usbc/MTP_usbc_workspaceFileXml.qwsp \
     vendor/xiaomi/spring/proprietary/vendor/etc/acdbdata/blair_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/blair_qrd/QRD_acdb_cal.acdb \
     vendor/xiaomi/spring/proprietary/vendor/etc/acdbdata/blair_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/blair_qrd/QRD_workspaceFileXml.qwsp \
     vendor/xiaomi/spring/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd \
@@ -281,15 +276,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd \
     vendor/xiaomi/spring/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/spring/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/spring/proprietary/vendor/etc/audio/sku_blair/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_blair/audio_effects.conf \
-    vendor/xiaomi/spring/proprietary/vendor/etc/audio/sku_blair/mixer_paths_blair_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_blair/mixer_paths_blair_mtp.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/audio/sku_blair/mixer_paths_blair_mtp_usbc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_blair/mixer_paths_blair_mtp_usbc.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/audio/sku_blair/mixer_paths_blair_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_blair/mixer_paths_blair_qrd.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/audio/sku_blair/resourcemanager_blair_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_blair/resourcemanager_blair_mtp.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/audio/sku_blair/resourcemanager_blair_mtp_usbc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_blair/resourcemanager_blair_mtp_usbc.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/audio/sku_blair/resourcemanager_blair_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_blair/resourcemanager_blair_qrd.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/audio/sku_blair_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_blair_qssi/audio_policy_configuration.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
+    vendor/xiaomi/spring/proprietary/vendor/etc/backend_conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/backend_conf.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/camera/110_BlackGold.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/110_BlackGold.png \
     vendor/xiaomi/spring/proprietary/vendor/etc/camera/148_Mild.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/148_Mild.png \
@@ -694,23 +683,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/vendor/etc/libnfc-tms_RF_GB1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-tms_RF_GB1.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_blair/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_blair/video_system_specs.json \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_blair_lite/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_blair_lite/video_system_specs.json \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_blair.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_blair.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_blair_lite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_blair_lite.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_holi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_holi.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_holi_pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_holi_pro.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_performance_blair.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_blair.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_performance_blair_lite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_blair_lite.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_performance_holi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_holi.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_performance_holi_pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_holi_pro.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/media_profiles_blair.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_blair.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_profiles_blair_lite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_blair_lite.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_profiles_holi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_holi.xml \
-    vendor/xiaomi/spring/proprietary/vendor/etc/media_profiles_holi_pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_holi_pro.xml \
+    vendor/xiaomi/spring/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
@@ -847,6 +824,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/vendor/etc/sensors/config/strait_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/strait_tmd2725.json \
     vendor/xiaomi/spring/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/xiaomi/spring/proprietary/vendor/etc/sixth_param/sixth_param_boost0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_param/sixth_param_boost0.txt \
+    vendor/xiaomi/spring/proprietary/vendor/etc/sixth_param/sixth_param_boost1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_param/sixth_param_boost1.txt \
+    vendor/xiaomi/spring/proprietary/vendor/etc/sixth_param/sixth_param_boost2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_param/sixth_param_boost2.txt \
+    vendor/xiaomi/spring/proprietary/vendor/etc/sixth_param_in/sixth_param_boost0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_param_in/sixth_param_boost0.txt \
+    vendor/xiaomi/spring/proprietary/vendor/etc/sixth_param_in/sixth_param_boost1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_param_in/sixth_param_boost1.txt \
+    vendor/xiaomi/spring/proprietary/vendor/etc/sixth_param_in/sixth_param_boost2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_param_in/sixth_param_boost2.txt \
+    vendor/xiaomi/spring/proprietary/vendor/etc/sixth_wrapper_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_wrapper_cfg.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/spring/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
@@ -854,7 +838,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/spring/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/spring/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
@@ -1138,19 +1121,12 @@ PRODUCT_PACKAGES += \
     libTrustedUIAIDL \
     libTxPwrJni \
     libWlanServiceJni \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
     libadm \
     libadreno_app_profiles \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
     libagm \
-    libagm_compress_plugin \
-    libagm_mixer_plugin \
-    libagm_pcm_plugin \
-    libagmclient \
     libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
@@ -1217,7 +1193,6 @@ PRODUCT_PACKAGES += \
     libdisplayfeatureservice \
     libdisplayqos \
     libdisplayskuutils \
-    libdlbpreg \
     libdpmqmihal \
     libdpp_manager \
     libdpps \
@@ -1234,7 +1209,6 @@ PRODUCT_PACKAGES += \
     libfastcvdsp_stub \
     libfastcvopt \
     libfilefinder \
-    libfmpal \
     libgdtap \
     libgeofencing \
     libgf_ca \
@@ -1252,7 +1226,6 @@ PRODUCT_PACKAGES += \
     libhdcpsrm \
     libhdr_stub \
     libhdr_tm \
-    libhfp_pal \
     libhistogram \
     libidl \
     libintervmipc \
@@ -1463,7 +1436,6 @@ PRODUCT_PACKAGES += \
     libsn220u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
-    libsndcardparser \
     libsnpe_dsp_domains_v2 \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
@@ -1569,13 +1541,7 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     sensors.touch.detect \
     libasphere \
-    libdynproc \
-    libmisoundfx \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
     libshoebox \
-    libvolumelistener \
     tms-cos-dl-common \
     tms-cos-dl-ree \
     tms-utils \
@@ -1748,8 +1714,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
     vendor_lib_rfsa_adsp_libsnpe_dsp_v65_domains_v2_skel_so \
     vendor_lib_rfsa_adsp_libsnpe_dsp_v66_domains_v2_skel_so \
-    vendor_lib_rfsa_adsp_libsns_device_mode_skel_so \
-    vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so \
     vendor_lib_rfsa_adsp_misound_karaoke_res_bin \
     vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
     vendor_lib_rfsa_adsp_misound_res_headphone_bin \
@@ -1826,6 +1790,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     AtFwd2 \
+    PowerOffAlarm \
     QtiTelephonyService \
     QtiTelephony \
     WfdService \
@@ -1837,6 +1802,7 @@ PRODUCT_PACKAGES += \
     uimservicelibrary \
     com.android.hotwordenrollment.common.util \
     qcrilhook \
+    vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.ims.connection-V1.0-java \
     vendor.qti.ims.connectionaidlservice-V1-java \
     vendor.qti.ims.factory-V2.0-java \
@@ -1862,8 +1828,6 @@ PRODUCT_PACKAGES += \
     deviceinfo-saidl.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
-    manifest_non_qmaa.xml \
-    manifest_non_qmaa_extn.xml \
     mwqem-saidl.xml \
     qms-saidl.xml \
     vendor-qti-hardware-sensorscalibrate.xml \
@@ -2011,8 +1975,6 @@ PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
-    vendor_lib64_rfsa_adsp_libsns_device_mode_skel_so \
-    vendor_lib64_rfsa_adsp_libsns_low_lat_stream_skel_so \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
