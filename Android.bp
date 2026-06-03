@@ -29360,14 +29360,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.crda",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.crda.sh",
-    filename: "init.crda.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.kernel.post_boot-blair",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.kernel.post_boot-blair.sh",
@@ -29392,22 +29384,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.mdm",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.mdm.sh",
-    filename: "init.mdm.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.class_core",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.class_core.sh",
-    filename: "init.qcom.class_core.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qcom.early_boot",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qcom.early_boot.sh",
@@ -29416,26 +29392,10 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qcom.efs.sync",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.efs.sync.sh",
-    filename: "init.qcom.efs.sync.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qcom.post_boot",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qcom.post_boot.sh",
     filename: "init.qcom.post_boot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.sdio",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.sdio.sh",
-    filename: "init.qcom.sdio.sh",
     soc_specific: true,
 }
 
@@ -29460,54 +29420,6 @@ sh_binary {
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qti.chg_policy.sh",
     filename: "init.qti.chg_policy.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.debug-blair",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug-blair.sh",
-    filename: "init.qti.kernel.debug-blair.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.debug-holi",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug-holi.sh",
-    filename: "init.qti.kernel.debug-holi.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.debug",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug.sh",
-    filename: "init.qti.kernel.debug.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.early_debug-blair",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.early_debug-blair.sh",
-    filename: "init.qti.kernel.early_debug-blair.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.early_debug-holi",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.early_debug-holi.sh",
-    filename: "init.qti.kernel.early_debug-holi.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.early_debug",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.early_debug.sh",
-    filename: "init.qti.kernel.early_debug.sh",
     soc_specific: true,
 }
 
