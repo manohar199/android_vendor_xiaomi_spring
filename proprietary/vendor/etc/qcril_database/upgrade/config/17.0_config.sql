@@ -5,4 +5,4 @@
 */
 
 CREATE TABLE IF NOT EXISTS qcril_properties_table (property TEXT PRIMARY KEY NOT NULL, def_val TEXT, value TEXT);
-INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES('qcrildb_version',16.0);
+INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES('qcrildb_version',17.0);

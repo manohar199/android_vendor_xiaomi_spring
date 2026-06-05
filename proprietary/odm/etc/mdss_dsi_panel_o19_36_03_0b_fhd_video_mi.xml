@@ -67,11 +67,11 @@
         </eyeCare>
 		<rhyeyecare>
             <rhyeyecareParamName>RhyEyecRiseZone RhyEyecDayZone RhyEyecPmDropZone RhyEyecNightDropZone RhyEyecNightZone RhynativeCCT HourTime RhyEyedimmingTime RhyCctStepMs RhyD65Coeff0 RhyD65Coeff1 RhyD65Coeff2 RhyD65Coeff3 RhyD65Coeff4 RhyD65Coeff5 RhyD65Coeff6 RhyD65Coeff7 RhyD65Coeff8</rhyeyecareParamName>
-            <RhyEyecRiseZone>1300 3900 1400 4200 1800 7400</RhyEyecRiseZone>
-            <RhyEyecDayZone>5200 5600 5200</RhyEyecDayZone>
-            <RhyEyecPmDropZone>325 11050 350 11900 330 11140</RhyEyecPmDropZone>
-            <RhyEyecNightDropZone>325 11050 350 11900 810 21220</RhyEyecNightDropZone>
-            <RhyEyecNightZone>3900 4200 3400</RhyEyecNightZone>
+            <RhyEyecRiseZone>1400 4700 1400 4200 1800 7400</RhyEyecRiseZone>
+            <RhyEyecDayZone>5100 5600 5200</RhyEyecDayZone>
+            <RhyEyecPmDropZone>350 11400 350 11900 330 11140</RhyEyecPmDropZone>
+            <RhyEyecNightDropZone>350 11400 350 11900 810 21220</RhyEyecNightDropZone>
+            <RhyEyecNightZone>3700 4200 3400</RhyEyecNightZone>
             <RhynativeCCT>6500</RhynativeCCT>
             <HourTime>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</HourTime>
             <RhyEyedimmingTime>4</RhyEyedimmingTime>

@@ -3,7 +3,7 @@
     "product": "spring",
     "CameraBooster": {
         "support": {
-                "inhibit_native_process_enable": false,
+               "inhibit_native_process_enable": false,
                 "cam_boost_enable": true,
                 "3rdcam_boost_enable": true,
                 "cam_boost_opt_enable": true,
@@ -183,7 +183,7 @@
         },
         "threads_configs": {
             "CameraBoosterThread": "0,1,2,3,4,5,6,7",
-            "CameraMemoryThread": "0,1,2,3,4,5,6,7"
+            "CameraMemoryThread" : "0,1,2,3,4,5,6,7"
         },
         "configs": [
             {

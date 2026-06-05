@@ -25180,7 +25180,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.imsrtpservice@3.1",
                 "libbinder",
                 "libbinder_ndk",
-                "vendor.qti.ImsRtpService-V1-ndk",
+                "vendor.qti.ImsRtpService-V2-ndk",
                 "libdiag_system",
                 "libcutils",
                 "libutils",
@@ -25472,19 +25472,9 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libqesdk_ndk_platform.qti.so",
             ],
             shared_libs: [
-                "libhidlbase",
-                "libutils",
-                "vendor.qti.qesdhal@1.0",
-                "vendor.qti.qesdhal@1.1",
-                "vendor.qti.qesdhal@1.2",
-                "vendor.qti.qesdhalaidl-V2-ndk",
                 "libbinder_ndk",
                 "liblog",
-                "libcutils",
-                "libcrypto",
-                "libjsoncpp",
                 "libnativehelper",
-                "libc++",
                 "libc",
                 "libm",
                 "libdl",
@@ -26127,6 +26117,32 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.qti.ImsRtpService-V2-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/vendor.qti.ImsRtpService-V2-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.common-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal@1.0",
     owner: "xiaomi",
     strip: {
@@ -26319,7 +26335,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.display.mihwcextension-V1-ndk",
+    name: "vendor.xiaomi.hardware.display.mihwcextension-V2-ndk",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -26327,7 +26343,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/system_ext/lib64/vendor.xiaomi.hardware.display.mihwcextension-V1-ndk.so",
+                "proprietary/system_ext/lib64/vendor.xiaomi.hardware.display.mihwcextension-V2-ndk.so",
             ],
             shared_libs: [
                 "libbinder_ndk",

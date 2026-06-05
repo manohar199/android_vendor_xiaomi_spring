@@ -5,7 +5,7 @@
 
 <image_refiner>
     <!-- Please do not change the prefix Param_V4.1.1_  -->
-	<version   type="string" length="1">Param_V4.1.1_sample_mnfr_O19_i_main_20250703_normal_CN</version>
+	<version   type="string" length="1">Param_V4.1.1_sample_mnfr_O19_i_main_20250624_normal_GL</version>
 	<camera_id type="int"    length="1">1</camera_id>
 	
     <params>
@@ -283,11 +283,11 @@
 		 <iso value="2400">
 			<high_freq_level_0                     type="int"        rang="[0,1]"           default="0"      length="1">0</high_freq_level_0>
 	        <deghost_level                         type="double"     rang="[0.0,10.0]"      default="1.2"    length="1">0.2</deghost_level>	
-			<deghost_level_face                    type="double"     rang="[0.0,10.0]"      default="1.0"    length="1">0.16</deghost_level_face>
+			<deghost_level_face                    type="double"     rang="[0.0,10.0]"      default="1.0"    length="1">0.2</deghost_level_face>
             
 			<y_nr_level       			           type="double"     rang="[0.0,100.0]"     default="0.0"    length="1">0.5</y_nr_level>
 			<y_nr_radius                           type="int"        rang="[3,99]"          default="21"     length="1">21</y_nr_radius>
-            <ghost_nr_level                        type="double"     rang="[0.0,5.0]"       default="1.0"    length="1">5.0</ghost_nr_level>
+            <ghost_nr_level                        type="double"     rang="[0.0,5.0]"       default="1.0"    length="1">3.0</ghost_nr_level>
 			<face_nr_level                         type="double"     rang="[0,16.0]"        default="0.0"    length="1">0.8</face_nr_level>			
 			<dark_nr_level                         type="double"     rang="[1.0,16.0]"      default="1.0"    length="1">3</dark_nr_level>
 

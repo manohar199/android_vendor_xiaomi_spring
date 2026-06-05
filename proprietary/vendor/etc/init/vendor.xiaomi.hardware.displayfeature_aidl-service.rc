@@ -14,8 +14,8 @@ on early-boot
     chmod 0664 /sys/class/mi_display/disp-DSI-0/disp_count
     chown system system /sys/class/mi_display/disp-DSI-1/disp_count
     chmod 0664 /sys/class/mi_display/disp-DSI-1/disp_count
-    chown system system /dev/disp_feature
-    chmod 0664 /dev/disp_feature
+    chown system system /dev/mi_display/disp_feature
+    chmod 0664 /dev/mi_display/disp_feature
 
 on boot
     chown system system /sys/devices/virtual/graphics/fb0/hist_event

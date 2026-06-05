@@ -157,9 +157,14 @@
 
         <!-- Type="10", activity boost of 2sec -->
         <Config
-            Id="0x00001081" Type="10" Enable="true" Timeout="2000" Target="blair,holi"
+            Id="0x00001081" Type="10" Enable="true" Timeout="2000" Target="holi"
             Resources="0x40CE0000, 0x00320028, 0x40804000, 0xFFF, 0x40804100, 0xFFF,
                        0x40800000, 1516, 0x40800100, 1516, 0x40C80000, 0x0" />
+
+        <Config
+            Id="0x00001081" Type="10" Enable="true" Timeout="2000" Target="blair"
+            Resources="0x40C00000, 0x3, 0x40CF4000, 0x00640055, 0x40408000, 0x5,
+          0x40C74000, 0xF0, 0x5FC00000, 0x3F, 0x40C48000, 0x3, 0x40C40000, 0x7F" />
 
     <!--app launch boost (attach application) -->
         <!-- SCHED_TASK_BOOST resource opcode, value-->

@@ -103,7 +103,7 @@
 			<unsharp_range_high    	               type="double"     rang="[0.0,5.0]"       default="1.0"    length="1">1.0</unsharp_range_high>
             <unsharp_thres                         type="double"     rang="[0,16]"          default="2"      length="1">2.0</unsharp_thres>
             <unsharp_black_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.6</unsharp_black_level>
-			<unsharp_white_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.3</unsharp_white_level>
+			<unsharp_white_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.6</unsharp_white_level>
 			<unsharp_noise_level 			       type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.2</unsharp_noise_level>
 			
 
@@ -275,7 +275,7 @@
 			<unsharp_range_high    	               type="double"     rang="[0.0,5.0]"       default="1.0"    length="1">1.0</unsharp_range_high>
             <unsharp_thres                         type="double"     rang="[0,16]"          default="2"      length="1">2.0</unsharp_thres>
             <unsharp_black_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.4</unsharp_black_level>
-			<unsharp_white_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.1</unsharp_white_level>
+			<unsharp_white_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.3</unsharp_white_level>
 			<unsharp_noise_level 			       type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.2</unsharp_noise_level>
 			
 
@@ -333,7 +333,7 @@
 			<unsharp_range_high    	               type="double"     rang="[0.0,5.0]"       default="1.0"    length="1">1.0</unsharp_range_high>
             <unsharp_thres                         type="double"     rang="[0,16]"          default="2"      length="1">2.0</unsharp_thres>
             <unsharp_black_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.8</unsharp_black_level>
-			<unsharp_white_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.4</unsharp_white_level>
+			<unsharp_white_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.8</unsharp_white_level>
 			<unsharp_noise_level 			       type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.4</unsharp_noise_level>
 			
 
@@ -481,8 +481,8 @@
 			<dark_nr_level                         type="double"     rang="[1.0,16.0]"      default="1.0"    length="1">2.0</dark_nr_level>
 
 			<c_nr_radius                           type="int"        rang="[3,99]"          default="7"      length="1">84</c_nr_radius>			     
-            <c_nr_times           		           type="int"        rang="[0,5]"           default="0"      length="1">2</c_nr_times> 
-            <c_nr_level   		                   type="double"     rang="[0.0,10.0]"      default="1.0"    length="3">2.0</c_nr_level>
+            <c_nr_times           		           type="int"        rang="[0,5]"           default="0"      length="1">3</c_nr_times> 
+            <c_nr_level   		                   type="double"     rang="[0.0,10.0]"      default="1.0"    length="3">5.0</c_nr_level>
 			<c_nr_color_boost                      type="double"     rang="[0.0,2.0]"       default="1"      length="1">1.0</c_nr_color_boost>	
 			<c_nr_scale                            type="int"        rang="[1,5]"           default="4"      length="1">4</c_nr_scale>
             

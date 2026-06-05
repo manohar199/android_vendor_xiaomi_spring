@@ -6,3 +6,4 @@ service vendor.secure_element /vendor/bin/hw/android.hardware.secure_element-ser
 
 on boot && property:ro.boot.product.hardware.sku=o19jp
     start vendor.secure_element
+

@@ -68,7 +68,7 @@
 	        <deghost_level                         type="double"     rang="[0.0,10.0]"      default="1.2"    length="1">0.2</deghost_level>	
 			<deghost_level_face                    type="double"     rang="[0.0,10.0]"      default="1.0"    length="1">0.2</deghost_level_face>
             
-			<y_nr_level       			           type="double"     rang="[0.0,100.0]"     default="0.0"    length="1">0.6</y_nr_level>
+			<y_nr_level       			           type="double"     rang="[0.0,100.0]"     default="0.0"    length="1">0.8</y_nr_level>
 			<y_nr_radius                           type="int"        rang="[3,99]"          default="21"     length="1">21</y_nr_radius>
             <ghost_nr_level                        type="double"     rang="[0.0,5.0]"       default="1.0"    length="1">1.5</ghost_nr_level>
 			<face_nr_level                         type="double"     rang="[0,16.0]"        default="0.0"    length="1">0</face_nr_level>			
@@ -93,16 +93,16 @@
             <nlm_shrink                            type="double"     rang="[1.0,2.0]"       default="2.0"    length="1">2</nlm_shrink>
 
             <unsharp_method       		           type="int"     	 rang="[0.0,1.0]"       default="0"      length="1">0</unsharp_method>
-			<unsharp_level       		           type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.2</unsharp_level> 
+			<unsharp_level       		           type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.1</unsharp_level> 
 			<face_unsharp_level                    type="double"     rang="[0.0,2.0]"       default="1.0"    length="1">0.3</face_unsharp_level>
 			<unsharp_range_low   	               type="double"     rang="[0.0,5.0]"       default="0.5"    length="1">0.6</unsharp_range_low>
 			<unsharp_range_high    	               type="double"     rang="[0.0,5.0]"       default="1.0"    length="1">1.0</unsharp_range_high>
             <unsharp_thres                         type="double"     rang="[0,16]"          default="2"      length="1">1.0</unsharp_thres>
-            <unsharp_black_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.4</unsharp_black_level>
-			<unsharp_white_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.4</unsharp_white_level>
+            <unsharp_black_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.2</unsharp_black_level>
+			<unsharp_white_level   	               type="double"     rang="[0.0,1.0]"       default="1.0"    length="1">0.2</unsharp_white_level>
 			<unsharp_noise_level 			       type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.0</unsharp_noise_level>
 			
-			<hfe_level                             type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.4</hfe_level>
+			<hfe_level                             type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.0</hfe_level>
 			<lfe_level                             type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.0</lfe_level>
 			<lce_level       		  			   type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.3</lce_level>
 			<lce_face_level       		  		   type="double"     rang="[0.0,1.0]"       default="0.5"    length="1">1.0</lce_face_level>

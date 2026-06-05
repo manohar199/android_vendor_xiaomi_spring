@@ -5,7 +5,7 @@
 
 <image_refiner>
 	<!-- Please do not change the prefix Param_V4.1.1_  -->
-	<version   type="string" length="1">Param_V4.1.1_sample_mnfr_O19_i_front_20250703_normal</version>
+	<version   type="string" length="1">Param_V4.1.1_sample_mnfr_O19_i_front_20250425_normal</version>
 	<camera_id type="int"    length="1">17</camera_id>
 	
     <params>
@@ -284,13 +284,13 @@
 		<iso value="2400">					
 	        <high_freq_level_0                     type="int"        rang="[0,1]"           default="0"      length="1">0</high_freq_level_0>
 	        <deghost_level                         type="double"     rang="[0.0,10.0]"      default="1.2"    length="1">0.1</deghost_level>	
-			<deghost_level_face                    type="double"     rang="[0.0,10.0]"      default="1.0"    length="1">0.08</deghost_level_face>
+			<deghost_level_face                    type="double"     rang="[0.0,10.0]"      default="1.0"    length="1">0.06</deghost_level_face>
             
 			<y_nr_level       			           type="double"     rang="[0.0,100.0]"     default="0.0"    length="1">1.0</y_nr_level>
 			<y_nr_radius                           type="int"        rang="[3,99]"          default="21"     length="1">21</y_nr_radius>
             <ghost_nr_level                        type="double"     rang="[0.0,5.0]"       default="1.0"    length="1">3.0</ghost_nr_level>
-			<face_nr_level                         type="double"     rang="[0,16.0]"        default="0.0"    length="1">1.2</face_nr_level>			
-			<dark_nr_level                         type="double"     rang="[1.0,16.0]"      default="1.0"    length="1">4.0</dark_nr_level>
+			<face_nr_level                         type="double"     rang="[0,16.0]"        default="0.0"    length="1">1.0</face_nr_level>			
+			<dark_nr_level                         type="double"     rang="[1.0,16.0]"      default="1.0"    length="1">3.0</dark_nr_level>
 
 			<c_nr_radius                           type="int"        rang="[3,99]"          default="7"      length="1">7</c_nr_radius>			     
             <c_nr_times           		           type="int"        rang="[0,5]"           default="0"      length="1">1.0</c_nr_times> 
@@ -300,19 +300,19 @@
             
             <enable_post_nr_process_in_prior       type="int"        rang="[0,1]"           default="0"     length="1">1</enable_post_nr_process_in_prior>
 			<low_freq_level                        type="double"     rang="[0.0,32]"        default="0.0"    length="1">0.0</low_freq_level>
-            <high_freq_level                       type="double"     rang="[0.0,32]"        default="0.0"    length="1">0.4</high_freq_level>
+            <high_freq_level                       type="double"     rang="[0.0,32]"        default="0.0"    length="1">0.3</high_freq_level>
 			<round_nr_level                        type="double"     rang="[0.0,16.0]"      default="0"      length="1">2</round_nr_level>
 			<round_nr_radius                       type="double"     rang="[0.2,10.0]"      default="0.2"    length="1">1</round_nr_radius>
-			<darkspike_nr_level                    type="double"     rang="[0.0,3.5]"       default="0.0"    length="1">2.5</darkspike_nr_level>
-            <merge_darkspike_nr_level              type="double"     rang="[0.0,3.5]"       default="0.0"    length="1">2.5</merge_darkspike_nr_level>
+			<darkspike_nr_level                    type="double"     rang="[0.0,3.5]"       default="0.0"    length="1">2.0</darkspike_nr_level>
+            <merge_darkspike_nr_level              type="double"     rang="[0.0,3.5]"       default="0.0"    length="1">2.0</merge_darkspike_nr_level>
 			<nlm_level                             type="double"     rang="[0.0,10.0]"      default="0.0"    length="1">0.0</nlm_level>
             <nlm_radius                            type="int"        rang="[1,99]"          default="3"      length="1">3</nlm_radius>
             <nlm_search_radius                     type="int"        rang="[1,21]"          default="5"      length="1">5</nlm_search_radius>
             <nlm_shrink                            type="double"     rang="[1.0,2.0]"       default="2.0"    length="1">2</nlm_shrink>
 
             <unsharp_method       		           type="int"     	 rang="[0.0,1.0]"       default="0"      length="1">0</unsharp_method>
-			<unsharp_level       		           type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.15</unsharp_level> 
-			<face_unsharp_level                    type="double"     rang="[0.0,2.0]"       default="1.0"    length="1">0.4</face_unsharp_level>
+			<unsharp_level       		           type="double"     rang="[0.0,1.0]"       default="0.0"    length="1">0.2</unsharp_level> 
+			<face_unsharp_level                    type="double"     rang="[0.0,2.0]"       default="1.0"    length="1">0.6</face_unsharp_level>
 			<unsharp_range_low   	               type="double"     rang="[0.0,5.0]"       default="0.5"    length="1">0.7</unsharp_range_low>
 			<unsharp_range_high    	               type="double"     rang="[0.0,5.0]"       default="1.0"    length="1">1.2</unsharp_range_high>
             <unsharp_thres                         type="double"     rang="[0,16]"          default="2"      length="1">1.0</unsharp_thres>

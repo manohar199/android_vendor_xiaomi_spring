@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/odm/etc/camera/cameraopt.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt.json \
+    vendor/xiaomi/spring/proprietary/odm/etc/camera/cameraopt_reclaim.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_reclaim.json \
     vendor/xiaomi/spring/proprietary/odm/etc/df_default.xml:$(TARGET_COPY_OUT_ODM)/etc/df_default.xml \
     vendor/xiaomi/spring/proprietary/odm/etc/disp0/dsi_panel_o19_36_03_0b_fhd_video/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_panel_o19_36_03_0b_fhd_video/cct_pcc.txt \
     vendor/xiaomi/spring/proprietary/odm/etc/disp0/dsi_panel_o19_36_03_0b_fhd_video/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_panel_o19_36_03_0b_fhd_video/miLutInfo.txt \
@@ -200,24 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-cgame.conf \
     vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-chg-only.conf \
     vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-class0.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-camera.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-cclassvideo.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-cgame.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-chg-only.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-class0.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-demo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-demo.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-hp-mgame.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-hp-normal.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-huanji.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-livestream.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-livestream.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-mgame.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-navigation.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-nolimits.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-normal.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-phone.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-tgame.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-video.conf \
-    vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo-videochat.conf \
     vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-demo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-demo.conf \
     vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-hp-mgame.conf \
     vendor/xiaomi/spring/proprietary/odm/etc/thermal-jp-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-jp-hp-normal.conf \
@@ -254,6 +237,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/xiaomi/spring/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     vendor/xiaomi/spring/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/xiaomi/spring/proprietary/system_ext/etc/init/qspa_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qspa_system.rc \
     vendor/xiaomi/spring/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/xiaomi/spring/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/spring/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
@@ -261,6 +245,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/xiaomi/spring/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
     vendor/xiaomi/spring/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
+    vendor/xiaomi/spring/proprietary/system_ext/etc/qspa/qspa_default.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qspa/qspa_default.rc \
     vendor/xiaomi/spring/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/xiaomi/spring/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/spring/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
@@ -703,15 +688,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/config/13.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/13.0_config.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/config/14.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/14.0_config.sql \
-    vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/config/15.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/15.0_config.sql \
-    vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/config/16.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/16.0_config.sql \
+    vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/config/17.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/17.0_config.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/config/6.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/6.0_config.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/config/7.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/7.0_config.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/config/8.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/8.0_config.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/0_initial_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0_initial_qcrilnr.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/14_version_update_ecc_table_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/14_version_update_ecc_table_qcrilnr.sql \
-    vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/15_version_update_ecc_table_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/15_version_update_ecc_table_qcrilnr.sql \
-    vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/16_version_update_ecc_table_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/16_version_update_ecc_table_qcrilnr.sql \
+    vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/15_version_update_modules.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/15_version_update_modules.sql \
+    vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/17_version_update_ecc_table_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/17_version_update_ecc_table_qcrilnr.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/1_version_intro_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/1_version_intro_qcrilnr.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql \
@@ -1746,6 +1730,7 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc \
     libwfduibcsrcinterface \
     vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.ImsRtpService-V2-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.seccam@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
@@ -1753,7 +1738,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qesdhalaidl-V2-ndk \
-    vendor.xiaomi.hardware.display.mihwcextension-V1-ndk \
+    vendor.xiaomi.hardware.display.mihwcextension-V2-ndk \
     displayfeature.default \
     libMiDispDevManager \
     libadaptivehdr \
