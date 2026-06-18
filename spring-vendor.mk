@@ -830,13 +830,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/vendor/firmware/gen6_3_25_0_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gen6_3_25_0_zap.b02 \
     vendor/xiaomi/spring/proprietary/vendor/firmware/gen6_3_25_0_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/gen6_3_25_0_zap.elf \
     vendor/xiaomi/spring/proprietary/vendor/firmware/gen6_3_25_0_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gen6_3_25_0_zap.mdt \
-    vendor/xiaomi/spring/proprietary/vendor/firmware/gen70900_aqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_aqe.fw \
-    vendor/xiaomi/spring/proprietary/vendor/firmware/gen70900_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_sqe.fw \
-    vendor/xiaomi/spring/proprietary/vendor/firmware/gen70900_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_zap.mbn \
-    vendor/xiaomi/spring/proprietary/vendor/firmware/gen71100_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_gmu.bin \
-    vendor/xiaomi/spring/proprietary/vendor/firmware/gen71100_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_sqe.fw \
-    vendor/xiaomi/spring/proprietary/vendor/firmware/gen71100_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_zap.mbn \
-    vendor/xiaomi/spring/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin \
     vendor/xiaomi/spring/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/xiaomi/spring/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/xiaomi/spring/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
