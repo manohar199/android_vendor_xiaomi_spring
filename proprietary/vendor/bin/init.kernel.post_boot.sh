@@ -151,7 +151,7 @@ function configure_memory_parameters() {
 	if [ "$ProductName" == "spring" ]; then
 		echo 150 > /proc/sys/vm/swappiness
 	else
-		echo 100 > /proc/sys/vm/swappiness
+		echo 130 > /proc/sys/vm/swappiness
 	fi
 
 	# Disable periodic kcompactd wakeups. We do not use THP, so having many

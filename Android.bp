@@ -17420,36 +17420,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsubsystem_control",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsubsystem_control.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libqmi_cci",
-                "libqmi_common_so",
-                "libmdmdetect",
-                "libperipheral_client",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libswregistrationalgo",
     owner: "xiaomi",
     strip: {
@@ -18099,32 +18069,6 @@ cc_prebuilt_library_shared {
                 "libdisplaydebug",
                 "libqrtr",
                 "libmemutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvmmem",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvmmem.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libbase",
                 "libc++",
                 "libc",
                 "libm",
@@ -29681,36 +29625,6 @@ cc_prebuilt_binary {
                 "vendor.qti.qccvndhal_aidl-V1-ndk",
                 "vendor.qti.qccvndhal_aidl-halimpl",
                 "vendor.qti.hardware.qccsyshal@1.2",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "qcom-system-daemon",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/qcom-system-daemon",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libdiag",
-                "libsubsystem_control",
-                "libavservices_minijail",
                 "libc++",
                 "libc",
                 "libm",
